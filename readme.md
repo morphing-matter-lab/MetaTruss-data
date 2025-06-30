@@ -19,7 +19,7 @@ pip install -r requirements.txt
 The plotting code is located in the `plotting_code` directory. To generate all figures, simply run:
 
 ```bash
-python plot.py
+python ./plotting_code/plot.py
 ```
 
 This script will automatically call the necessary plotting and dataset reading functions from other folders to generate each figure to the `.output` folder.
